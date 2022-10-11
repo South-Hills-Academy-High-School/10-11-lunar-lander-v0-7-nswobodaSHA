@@ -140,6 +140,6 @@ game.onUpdate(function () {
         apple.x = 5 * 16
     }
     if (apple.tilemapLocation().column == 5 && apple.vx < 0) {
-        apple.x = 28 * 16
+        apple.x = 27 * 16
     }
 })
